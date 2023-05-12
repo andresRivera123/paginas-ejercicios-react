@@ -1,0 +1,50 @@
+.divForm {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.principalInput {
+  flex-grow: 2;
+  width: 75%;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px #333;
+}
+
+.principalButton {
+  border: none;
+  border-radius: 3px;
+  background-color: #8BF7C8;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.createList {
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.sectionInput {
+  flex-grow: 1;
+  margin-right: 10px;
+  text-align: start;
+}
+
+.buttonSection {
+  margin-left: 10px;
+  border: none;
+}
+
+.blue{
+    background-color: #A0BAEE;
+}
+
+.red{
+    background-color: #FF668F;
+}
